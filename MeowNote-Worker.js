@@ -448,7 +448,7 @@ input,textarea{font-family:var(--font);outline:none;border:none;background:trans
 <!-- Login -->
 <div id="login-screen">
   <div class="login-card">
-    <div class="login-logo">Meow 🐾</div>
+    <div class="login-logo">NoteBook 🐾</div>
     <div class="login-sub">轻量级 · 注重隐私 · 笔记应用</div>
     <input class="login-inp" id="pw-inp" type="password" placeholder="输入访问密码" autofocus/>
     <button class="login-btn" onclick="doLogin()">进入</button>
@@ -461,7 +461,7 @@ input,textarea{font-family:var(--font);outline:none;border:none;background:trans
   <div class="sp-inner">
     <div class="sp-warn" id="sp-warn"></div>
     <div id="sp-card-wrap"></div>
-    <div class="sp-foot">由 <a href="/">Meow 🐾</a> 分享</div>
+    <div class="sp-foot">由 <a href="/">NoteBook 🐾</a> 分享</div>
   </div>
 </div>
 
@@ -501,7 +501,7 @@ input,textarea{font-family:var(--font);outline:none;border:none;background:trans
             <div class="brand-avatar-edit">编辑</div>
             <input type="file" id="avatar-file" accept="image/*" style="display:none" onchange="onAvatarFile(event)"/>
           </div>
-          <div class="brand-name">Meow</div>
+          <div class="brand-name">NoteBook</div>
         </div>
         <button class="collapse-btn" onclick="toggleLeft()" title="折叠">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
@@ -568,10 +568,10 @@ input,textarea{font-family:var(--font);outline:none;border:none;background:trans
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
         <div style="width:1px;height:22px;background:var(--border2);margin:0 2px"></div>
-        <a href="https://t.me/CMLiussss" target="_blank" class="nav-icon-btn" title="Telegram" style="text-decoration:none">
+        <a href="https://www.soscc.eu.org/" target="_blank" class="nav-icon-btn" title="Sky | Smile 幽灵" style="text-decoration:none">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.17 13.667l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.978.892z"/></svg>
         </a>
-        <a href="https://www.youtube.com/@%E5%A5%BD%E8%BD%AF%E6%8E%A8%E8%8D%90" target="_blank" class="nav-icon-btn" title="YouTube" style="text-decoration:none">
+        <a href="https://www.youtube.com/@Sky-CC" target="_blank" class="nav-icon-btn" title="YouTube" style="text-decoration:none">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
         </a>
         <a href="https://github.com/vavacc/" target="_blank" class="nav-icon-btn" title="GitHub" style="text-decoration:none">
